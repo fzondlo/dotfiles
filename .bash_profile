@@ -3,6 +3,9 @@
 
 alias tmux="TERM=screen-256color-bce tmux" #This corrects colors in screen session
 
+# jump to rails directory
+alias rd="cd ~/Documents/rails/"
+
 #Open Pathfinder in termainal with pf
 alias pf="open -a \"Path Finder.app\""
 
@@ -27,7 +30,6 @@ alias ll="ls -lahG"
 #alias vim='mvim'
 
 alias kaudio="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`"
-
 
 # why would you type 'cd dir' if you could just type 'dir'?
 #setopt AUTO_CD
@@ -55,10 +57,10 @@ directory_color=magenta
 error_color=red
 jobs_color=green
 
-
 ##
 # Your previous /Users/fzondlo/.bash_profile file was backed up as /Users/fzondlo/.bash_profile.macports-saved_2013-05-18_at_14:57:56
 ##
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 export PATH=./bin:/Users/fzondlo/.rvm/gems/ruby-2.0.0-p195/bin:/Users/fzondlo/.rvm/gems/ruby-2.0.0-p195@global/bin:/Users/fzondlo/.rvm/rubies/ruby-2.0.0-p195/bin:/Users/fzondlo/.rvm/bin:/Applications/Postgres.app/Contents/MacOS/bin:/Users/fzondlo/bin:/usr/local/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/mysql/bin
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
