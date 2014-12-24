@@ -1,3 +1,5 @@
+# c => copies last command to clipboard
+c() { history -p '!!'|tr -d \\n|pbcopy;  }
 
 #MYSQL=/usr/local/mysql
 
