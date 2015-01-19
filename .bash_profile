@@ -1,3 +1,7 @@
+[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
 # c => copies last command to clipboard
 c() { history -p '!!'|tr -d \\n|pbcopy;  }
 
@@ -63,6 +67,6 @@ jobs_color=green
 # Your previous /Users/fzondlo/.bash_profile file was backed up as /Users/fzondlo/.bash_profile.macports-saved_2013-05-18_at_14:57:56
 ##
 
-export PATH=./bin:/Users/fzondlo/.rvm/gems/ruby-2.0.0-p195/bin:/Users/fzondlo/.rvm/gems/ruby-2.0.0-p195@global/bin:/Users/fzondlo/.rvm/rubies/ruby-2.0.0-p195/bin:/Users/fzondlo/.rvm/bin:/Applications/Postgres.app/Contents/MacOS/bin:/Users/fzondlo/bin:/usr/local/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/mysql/bin
+#export PATH=./bin:/Users/fzondlo/.rvm/gems/ruby-2.0.0-p195/bin:/Users/fzondlo/.rvm/gems/ruby-2.0.0-p195@global/bin:/Users/fzondlo/.rvm/rubies/ruby-2.0.0-p195/bin:/Users/fzondlo/.rvm/bin:/Applications/Postgres.app/Contents/MacOS/bin:/Users/fzondlo/bin:/usr/local/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/mysql/bin
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
