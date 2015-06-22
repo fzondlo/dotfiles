@@ -20324,7 +20324,7 @@
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x04</string>
+			<string>0x19</string>
 		</dict>
 		<key>0x74-0x100000</key>
 		<dict>
@@ -20489,11 +20489,11 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>38 692 924 485 0 0 1920 1177 </string>
+	<string>875 250 924 485 0 0 1920 1177 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>122 598 384 129 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1920 1200 0 0 1920 1177 </string>
+	<string>46 101 1341 1046 0 0 1920 1200 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>317 77 585 401 0 0 1920 1177 </string>
 	<key>New Bookmarks</key>
@@ -22059,7 +22059,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-05-30T22:08:39Z</date>
+	<date>2015-06-21T18:09:48Z</date>
 	<key>SUSkippedVersion</key>
 	<string>2.1.1</string>
 	<key>SavePasteHistory</key>
