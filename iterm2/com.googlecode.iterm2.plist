@@ -20489,13 +20489,13 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>875 250 924 485 0 0 1920 1177 </string>
+	<string>78 210 924 485 0 0 1920 1177 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>122 598 384 129 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>46 101 1341 1046 0 0 1920 1200 </string>
+	<string>211 123 1341 1046 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>317 77 585 401 0 0 1920 1177 </string>
+	<string>18 446 585 401 0 0 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -21002,7 +21002,7 @@
 			<key>Normal Font</key>
 			<string>SauceCodePowerline-Regular 11</string>
 			<key>Option Key Sends</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
 			<integer>0</integer>
 			<key>Right Option Key Sends</key>
@@ -21818,7 +21818,7 @@
 			<key>Normal Font</key>
 			<string>SauceCodePowerline-Regular 11</string>
 			<key>Option Key Sends</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
 			<integer>0</integer>
 			<key>Right Option Key Sends</key>
