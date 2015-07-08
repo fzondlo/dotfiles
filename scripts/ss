@@ -1,0 +1,24 @@
+#!/bin/bash
+
+########
+#
+# Split tmux window twice, resize, and open vim on the right pane
+#
+
+# split the windows vertically
+tmux split-window -h
+
+# get the combined width of both panes
+WIDTH=`tmux list-panes | awk '{print $2}' | cut -c 2- | cut -f 1 -d'x' | awk '{s+=$1} END {print s}'`
+
+# get 65% of width
+NEW_WIDTH=`echo "$WIDTH * .65" | bc -l`
+
+# round NEW_WIDTH to nearest int
+NEW_WIDTH=`printf "%.0f" $NEW_WIDTH`
+
+# resize tmux window
+tmux resize-pane -x $NEW_WIDTH
+
+# open vim with nerdtree
+vim -c 'NERDTreeToggle|wincmd h'
