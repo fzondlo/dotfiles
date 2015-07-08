@@ -7,3 +7,7 @@
 - ln -s dotfiles/.bashrc .bashrc
 - ln -s dotfiles/.tmux.conf .tmux.conf
 - ln -s dotfiles/.git-completion.bash .git-completion.bash
+
+
+# Bindings
+* `ss` - splits tmux twice and opens vim with nerdtree

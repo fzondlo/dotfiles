@@ -1,0 +1,15 @@
+#!/bin/bash
+
+########
+#
+# Split tmux window twice, resize, and open vim on the right pane
+#
+
+# split the windows vertically and open vim with nerdtree
+tmux split-window -h -p 65 "vim -c 'NERDTreeToggle|wincmd h'"
+
+#split right pane horizontally
+tmux split-window -t 1 -v
+
+#go back to left pane
+tmux select-pane -L

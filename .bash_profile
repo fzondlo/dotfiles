@@ -2,18 +2,32 @@
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-# c => copies last command to clipboard
-c() { history -p '!!'|tr -d \\n|pbcopy;  }
-
-#MYSQL=/usr/local/mysql
 
 alias tmux="TERM=screen-256color-bce tmux" #This corrects colors in screen session
+
+
+#########
+#
+# MY SCRIPTS
+#
+
+#Opens vim env within tmux
+alias ss="~/dotfiles/scripts/vim_env"
+
+#This corrects colors in screen session
+alias tmux="TERM=screen-256color-bce tmux" 
 
 # jump to rails directory
 alias rd="cd ~/Documents/rails/"
 
 #Open Pathfinder in termainal with pf
 alias pf="open -a \"Path Finder.app\""
+
+# c => copies last command to clipboard
+c() { history -p '!!'|tr -d \\n|pbcopy;  }
+
+#
+#########
 
 MYSQL=/usr/local/mysql/bin
 #FIXES RAILS ISSUES
