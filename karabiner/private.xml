@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<root>
+<item>
+<name>Disable forced logout</name>
+<identifier>private.disable_forced_logout</identifier>
+<autogen>
+__KeyToKey__
+KeyCode::Q, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND | MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+KeyCode::VK_NONE,
+</autogen>
+</item>
+<item>
+<name>Disable logout</name>
+<identifier>private.disable_logout</identifier>
+<autogen>
+__KeyToKey__
+KeyCode::Q, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND | MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+KeyCode::W, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL |
+MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT |
+MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND,
+</autogen>
+</item>
+
+</root>
