@@ -23,6 +23,9 @@ alias rd="cd ~/Documents/rails/"
 #Open Pathfinder in termainal with pf
 alias pf="open -a \"Path Finder.app\""
 
+#Open Pathfinder in termainal with pf
+alias vdif="~/dotfiles/vdif"
+
 # c => copies last command to clipboard
 c() { history -p '!!'|tr -d \\n|pbcopy;  }
 
