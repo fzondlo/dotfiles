@@ -20,6 +20,9 @@ alias tmux="TERM=screen-256color-bce tmux"
 # jump to rails directory
 alias rd="cd ~/Documents/rails/"
 
+# jump to weblinc directory
+alias rd="cd ~/Documents/weblinc/"
+
 #Open Pathfinder in termainal with pf
 alias pf="open -a \"Path Finder.app\""
 
@@ -87,3 +90,4 @@ jobs_color=green
 #export PATH=./bin:/Users/fzondlo/.rvm/gems/ruby-2.0.0-p195/bin:/Users/fzondlo/.rvm/gems/ruby-2.0.0-p195@global/bin:/Users/fzondlo/.rvm/rubies/ruby-2.0.0-p195/bin:/Users/fzondlo/.rvm/bin:/Applications/Postgres.app/Contents/MacOS/bin:/Users/fzondlo/bin:/usr/local/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/mysql/bin
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+PATH=/opt/local/bin:$PATH
