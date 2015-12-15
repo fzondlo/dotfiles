@@ -20212,70 +20212,70 @@
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>\0x02 0x31</string>
+			<string>0x02 0x31</string>
 		</dict>
 		<key>0x32-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>\0x02 0x32</string>
+			<string>0x02 0x32</string>
 		</dict>
 		<key>0x33-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>\0x02 0x33</string>
+			<string>0x02 0x33</string>
 		</dict>
 		<key>0x34-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>\0x02 0x34</string>
+			<string>0x02 0x34</string>
 		</dict>
 		<key>0x35-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>\0x02 0x35</string>
+			<string>0x02 0x35</string>
 		</dict>
 		<key>0x36-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>\0x02 0x36</string>
+			<string>0x02 0x36</string>
 		</dict>
 		<key>0x37-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>\0x02 0x37</string>
+			<string>0x02 0x37</string>
 		</dict>
 		<key>0x38-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>\0x02 0x38</string>
+			<string>0x02 0x38</string>
 		</dict>
 		<key>0x39-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>\0x02 0x39</string>
+			<string>0x02 0x39</string>
 		</dict>
 		<key>0x57-0x160000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x1c 0x78 0x79</string>
+			<string>0x02 0x78 0x79</string>
 		</dict>
 		<key>0x66-0x100000</key>
 		<dict>
@@ -20487,12 +20487,29 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+	<key>NSTableView Columns KeyBingingTable</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATCG
+		</data>
+		<string>198</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATGG
+		</data>
+		<string>287</string>
+	</array>
+	<key>NSTableView Hidden Columns KeyBingingTable</key>
+	<array/>
+	<key>NSTableView Sort Ordering KeyBingingTable</key>
+	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>-3091 112 924 485 -3360 -150 1680 1027 </string>
+	<string>182 189 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-3360 -150 1680 1050 -3360 -150 1680 1027 </string>
+	<string>492 201 851 598 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-3170 268 570 351 -3360 -150 1680 1027 </string>
+	<string>149 325 585 351 0 0 1440 900 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -21988,6 +22005,8 @@
 			<string>/Users/fzondlo</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>471808486.26725203</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
@@ -22058,7 +22077,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-12-14T17:41:12Z</date>
+	<date>2015-12-15T07:13:22Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
