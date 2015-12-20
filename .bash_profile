@@ -21,7 +21,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 alias rd="cd ~/Documents/rails/"
 
 # jump to weblinc directory
-alias rd="cd ~/Documents/weblinc/"
+alias wd="cd ~/Documents/weblinc/"
 
 #Open Pathfinder in termainal with pf
 alias pf="open -a \"Path Finder.app\""
