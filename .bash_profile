@@ -2,9 +2,7 @@
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-
 alias tmux="TERM=screen-256color-bce tmux" #This corrects colors in screen session
-
 
 #########
 #
@@ -31,6 +29,12 @@ alias vdif="~/dotfiles/vdif"
 
 # c => copies last command to clipboard
 c() { history -p '!!'|tr -d \\n|pbcopy;  }
+
+#Restart Pow
+alias rp="echo 'restarting pow!'; touch tmp/restart"
+
+#restart mongo
+alias smongod="echo 'starting mongo...'; sudo launchctl start org.mongo.mongod"
 
 #
 #########
@@ -89,5 +93,4 @@ jobs_color=green
 
 #export PATH=./bin:/Users/fzondlo/.rvm/gems/ruby-2.0.0-p195/bin:/Users/fzondlo/.rvm/gems/ruby-2.0.0-p195@global/bin:/Users/fzondlo/.rvm/rubies/ruby-2.0.0-p195/bin:/Users/fzondlo/.rvm/bin:/Applications/Postgres.app/Contents/MacOS/bin:/Users/fzondlo/bin:/usr/local/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/mysql/bin
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 PATH=/opt/local/bin:$PATH
