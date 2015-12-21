@@ -49,7 +49,7 @@ export PATH=~/bin:/usr/local/bin:/usr/local/mysql/bin:$PATH
 
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
-export EDITOR=mvim
+export EDITOR=vim
 
 source ~/.bash_git
 source ~/.git-completion.bash
