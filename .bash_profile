@@ -27,8 +27,11 @@ alias pf="open -a \"Path Finder.app\""
 #Open Pathfinder in termainal with pf
 alias vdif="~/dotfiles/vdif"
 
+# recursive grep that excludes logs and binaries
+gr() { grep -r --exclude=\*.{log,cache,png,jpg} "$1" *; } 
+
 # c => copies last command to clipboard
-c() { history -p '!!'|tr -d \\n|pbcopy;  }
+c() { history -p '!!'|tr -d \\n|pbcopy; }
 
 #Restart Pow
 alias rp="echo 'restarting pow!'; touch tmp/restart"
@@ -90,7 +93,5 @@ jobs_color=green
 ##
 # Your previous /Users/fzondlo/.bash_profile file was backed up as /Users/fzondlo/.bash_profile.macports-saved_2013-05-18_at_14:57:56
 ##
-
-#export PATH=./bin:/Users/fzondlo/.rvm/gems/ruby-2.0.0-p195/bin:/Users/fzondlo/.rvm/gems/ruby-2.0.0-p195@global/bin:/Users/fzondlo/.rvm/rubies/ruby-2.0.0-p195/bin:/Users/fzondlo/.rvm/bin:/Applications/Postgres.app/Contents/MacOS/bin:/Users/fzondlo/bin:/usr/local/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/mysql/bin
 
 PATH=/opt/local/bin:$PATH
