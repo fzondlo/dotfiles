@@ -20275,7 +20275,7 @@
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x02 0x78 0x79</string>
+			<string>0x1e 0x78 0x79</string>
 		</dict>
 		<key>0x66-0x100000</key>
 		<dict>
@@ -20331,7 +20331,7 @@
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x02</string>
+			<string>0x1e</string>
 		</dict>
 		<key>0x73-0x100000</key>
 		<dict>
@@ -20507,11 +20507,11 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>606 152 753 531 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>182 189 924 485 0 0 1440 877 </string>
+	<string>267 257 924 485 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1440 900 0 0 1440 877 </string>
+	<string>133 219 570 351 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>149 325 585 351 0 0 1440 900 </string>
+	<string>282 650 570 351 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -22012,7 +22012,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>471808486.26725203</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>471808486.26748502</real>
+	<real>475725118.96674901</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -22079,9 +22079,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-12-15T07:13:22Z</date>
+	<date>2016-01-29T01:51:56Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
+	<key>Secure Input</key>
+	<true/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowPaneTitles</key>
