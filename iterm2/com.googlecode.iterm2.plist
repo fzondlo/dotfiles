@@ -20212,63 +20212,63 @@
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x02 0x31</string>
+			<string>0x1e 0x31</string>
 		</dict>
 		<key>0x32-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x02 0x32</string>
+			<string>0x1e 0x32</string>
 		</dict>
 		<key>0x33-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x02 0x33</string>
+			<string>0x1e 0x33</string>
 		</dict>
 		<key>0x34-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x02 0x34</string>
+			<string>0x1e 0x34</string>
 		</dict>
 		<key>0x35-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x02 0x35</string>
+			<string>0x1e 0x35</string>
 		</dict>
 		<key>0x36-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x02 0x36</string>
+			<string>0x1e 0x36</string>
 		</dict>
 		<key>0x37-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x02 0x37</string>
+			<string>0x1e 0x37</string>
 		</dict>
 		<key>0x38-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x02 0x38</string>
+			<string>0x1e 0x38</string>
 		</dict>
 		<key>0x39-0x100000</key>
 		<dict>
 			<key>Action</key>
 			<integer>11</integer>
 			<key>Text</key>
-			<string>0x02 0x39</string>
+			<string>0x1e 0x39</string>
 		</dict>
 		<key>0x57-0x160000</key>
 		<dict>
@@ -20507,9 +20507,9 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>606 152 753 531 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>267 257 924 485 0 0 1680 1050 </string>
+	<string>312 506 924 485 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>133 219 570 351 0 0 1680 1027 </string>
+	<string>44 107 1389 858 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>282 650 570 351 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>

@@ -1,7 +1,5 @@
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
 alias tmux="TERM=screen-256color-bce tmux" #This corrects colors in screen session
 
 #########
@@ -11,6 +9,10 @@ alias tmux="TERM=screen-256color-bce tmux" #This corrects colors in screen sessi
 
 #Opens vim env within tmux
 alias ss="~/dotfiles/scripts/vim_env"
+
+#VIM
+alias v="nvim"
+alias vim="nvim"
 
 #This corrects colors in screen session
 alias tmux="TERM=screen-256color-bce tmux" 
