@@ -97,3 +97,4 @@ jobs_color=green
 ##
 
 PATH=/opt/local/bin:$PATH
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
