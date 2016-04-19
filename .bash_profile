@@ -10,6 +10,9 @@ alias tmux="TERM=screen-256color-bce tmux" #This corrects colors in screen sessi
 #Opens vim env within tmux
 alias ss="~/dotfiles/scripts/vim_env"
 
+#bundle exec
+alias be="bundle exec"
+
 #VIM
 alias v="nvim"
 alias vim="nvim"

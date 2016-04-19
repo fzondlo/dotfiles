@@ -15,3 +15,8 @@
 --nobin
 --ignore-dir=log/
 --ignore-dir=tmp/
+--ignore-dir=public/
+--ignore-dir=sitemap/
+--ignore-dir=sitemaps/
+--ignore-dir=data/
+-Q
