@@ -13,12 +13,19 @@ alias ss="~/dotfiles/scripts/vim_env"
 #bundle exec
 alias be="bundle exec"
 
+#bundle open
+function bo {
+  cd `bundle show $1`
+  vim -c 'NERDTreeToggle|wincmd h'
+  cd -
+}
+
 #VIM
 alias v="nvim"
 alias vim="nvim"
 
 #This corrects colors in screen session
-alias tmux="TERM=screen-256color-bce tmux" 
+alias tmux="TERM=screen-256color-bce tmux"
 
 # jump to rails directory
 alias rd="cd ~/Documents/rails/"
@@ -33,7 +40,7 @@ alias pf="open -a \"Path Finder.app\""
 alias vdif="~/dotfiles/vdif"
 
 # recursive grep that excludes logs and binaries
-gr() { grep -r --exclude=\*.{log,cache,png,jpg} "$1" *; } 
+gr() { grep -r --exclude=\*.{log,cache,png,jpg} "$1" *; }
 
 # c => copies last command to clipboard
 c() { history -p '!!'|tr -d \\n|pbcopy; }
