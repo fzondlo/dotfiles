@@ -16,7 +16,7 @@ alias be="bundle exec"
 #bundle open
 function bo {
   cd `bundle show $1`
-  vim -c 'NERDTreeToggle|wincmd h'
+  nvim -c 'NERDTreeToggle|wincmd h'
   cd -
 }
 
@@ -42,6 +42,9 @@ alias vdif="~/dotfiles/vdif"
 # recursive grep that excludes logs and binaries
 gr() { grep -r --exclude=\*.{log,cache,png,jpg} "$1" *; }
 
+# recusive grep for ruby files
+grr() { find . -type f -name '*.rb' -exec grep "$1" /dev/null {} +; }
+
 # c => copies last command to clipboard
 c() { history -p '!!'|tr -d \\n|pbcopy; }
 
@@ -54,15 +57,15 @@ alias smongod="echo 'starting mongo...'; sudo launchctl start org.mongo.mongod"
 #
 #########
 
-MYSQL=/usr/local/mysql/bin
+MYSQL=/usr/local/Cellar/mysql/5.7.12/bin
 #FIXES RAILS ISSUES
-export DYLD_LIBRARY_PATH="/usr/local/mysql/lib"
+export DYLD_LIBRARY_PATH="/usr/local/Cellar/mysql/5.7.12/lib"
 
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
 
 export PATH=~/bin:/usr/local/bin:/usr/local/mysql/bin:$PATH
 
-export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+export PATH="/Applications/Postgres.app/Contents/MacOS/bin:/usr/local/Cellar/mysql/5.7.12/bin:$PATH"
 
 export EDITOR=nvim
 
