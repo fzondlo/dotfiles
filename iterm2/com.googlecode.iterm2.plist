@@ -20487,12 +20487,31 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+	<key>NSTableView Columns KeyBingingTable</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATCG
+		</data>
+		<string>198</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATGG
+		</data>
+		<string>302</string>
+	</array>
+	<key>NSTableView Hidden Columns KeyBingingTable</key>
+	<array/>
+	<key>NSTableView Sort Ordering KeyBingingTable</key>
+	<array/>
+	<key>NSWindow Frame NSFontPanel</key>
+	<string>1409 113 445 103 0 0 1920 1177 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>269 136 924 485 0 0 1920 1177 </string>
+	<string>-1370 437 605 485 -1920 93 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>27 85 1298 1092 0 0 1920 1177 </string>
+	<string>-1920 93 1920 1080 -1920 93 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1224 483 570 351 0 0 1920 1177 </string>
+	<string>1055 171 675 897 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>80 150 1501 1027 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -21992,10 +22011,12 @@
 			<string>/Users/fzondlo</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>480190920.32590801</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>480190920.326132</real>
+	<real>491743887.13862902</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -22062,7 +22083,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-03-20T18:21:37Z</date>
+	<date>2016-08-01T11:28:49Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Secure Input</key>
@@ -22100,7 +22121,7 @@
 	<key>WebKitDefaultFontSize</key>
 	<integer>11</integer>
 	<key>WebKitStandardFont</key>
-	<string>.Helvetica Neue DeskInterface</string>
+	<string>.AppleSystemUIFont</string>
 	<key>WindowNumber</key>
 	<true/>
 	<key>WindowStyle</key>

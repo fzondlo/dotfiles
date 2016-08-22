@@ -13,6 +13,13 @@ alias ss="~/dotfiles/scripts/vim_env"
 #bundle exec
 alias be="bundle exec"
 
+#git log oneline <git lg>
+git config --global alias.lg "log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+#git log oneline w/graph <git lgg>
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+
 #bundle open
 function bo {
   cd `bundle show $1`
